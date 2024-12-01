@@ -1,0 +1,64 @@
+:root {
+    --cor-1: #f05e23;
+    --cor-2: #ec8962;
+}
+
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.bg-cor1 {
+    background-color: var(--cor-1);
+}
+
+.bg-cor2 {
+    background-color: var(--cor-2);
+}
+
+img.img-logo {
+    width: 50px;
+}
+
+.titulo-header {
+    color: #ffffff;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-header-2 {
+    color: #ffffff;
+}
+
+nav.navbar {
+    background-color: var(--cor-1) !important;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.btn-orange {
+    background-color: var(--cor-1);
+    color: #ffffff;
+}
+
+.btn-orange:hover {
+    background-color: var(--cor-2);
+}
+
+@media screen and (max-width: 1024px) {
+    .login {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        max-width: 80%;
+    }
+}
